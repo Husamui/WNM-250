@@ -1,0 +1,45 @@
+header,
+footer{
+    width:100%;
+    background: #548dd5;
+    overflow: hidden;
+}
+header h1,
+footer h1{
+    float: left;
+}
+header > nav,
+footer > nav{
+    float: right;
+}
+nav > ul > li{
+    float: left;
+    list-style: none;
+}
+nav a {
+    padding:10px 15px;
+    color: #fff;
+}
+
+#banner{
+    text-align: center;
+    background: #5CA1F1;
+    height:260px;
+    padding:60px;
+    color: #fff;
+}
+aside{
+    float: right;
+    width: 33.3333333%;
+    background: #e4e4e4;
+    height:600px;
+    margin-top:40px;
+}
+#posts{
+    float: left;
+    width: 66.66666%;
+}
+article{
+    padding:40px;
+    border-bottom:2px solid #e4e4e4;
+}
